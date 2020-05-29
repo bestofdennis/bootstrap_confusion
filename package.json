@@ -1,23 +1,31 @@
 {
   "name": "confusion",
   "version": "1.0.0",
-  "description": "This is a website for Ristorante Con Fusion",
+  "description": "This is confusion directory.",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestofdennis/confusion.git"
+  },
+  "author": "siyuan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bestofdennis/confusion/issues"
+  },
+  "homepage": "https://github.com/bestofdennis/confusion#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.2.2",
+    "node-sass": "^4.7.2"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.0"
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }
