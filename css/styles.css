@@ -51,3 +51,22 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+#reserveModal .modal-header {
+  background-color: #512da8;
+  color: floralwhite; }
+
+#reserveModal .modal-body {
+  background-color: #d1c3e9; }
+  #reserveModal .modal-body .form-row {
+    margin: 0px auto;
+    padding: 10px 0px; }
+    #reserveModal .modal-body .form-row .btn-group {
+      color: floralwhite; }
+
+#loginModal .modal-header {
+  background-color: #512da8;
+  color: floralwhite; }
+
+#loginModal .modal-body {
+  background-color: #d1c3e9; }
